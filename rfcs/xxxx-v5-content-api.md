@@ -21,7 +21,7 @@ Based on the [Database changes planned](https://github.com/strapi/rfcs/pull/52),
 
 | Method   | Url                                             | Desc                                                                    |
 | -------- | ----------------------------------------------- | ----------------------------------------------------------------------- |
-| `GET`    | `/api/:contentType``                            | Find a list of documents                                                |
+| `GET`    | `/api/:contentType`                             | Find a list of documents                                                |
 | `POST`   | `/api/:contentType`                             | Create a document                                                       |
 | `GET`    | `/api/:contentType/:documentId`                 | Find a document                                                         |
 | `PUT`    | `/api/:contentType/:documentId`                 | Update a document                                                       |
@@ -31,12 +31,12 @@ Based on the [Database changes planned](https://github.com/strapi/rfcs/pull/52),
 
 **Single Types**
 
-| Method   | Url                               | Desc                           |
-| -------- | --------------------------------- | ------------------------------ |
-| `GET`    | /api/:contentType                 | Find document                  |
-| `PUT`    | /api/:contentType                 | Create or Update the document  |
-| `DELETE` | /api/:contentType                 | Delete document                |
-| `POST`   | /api/:contentType/actions/:action | Actions on the single document |
+| Method   | Url                                 | Desc                           |
+| -------- | ----------------------------------- | ------------------------------ |
+| `GET`    | `/api/:contentType`                 | Find document                  |
+| `PUT`    | `/api/:contentType`                 | Create or Update the document  |
+| `DELETE` | `/api/:contentType`                 | Delete document                |
+| `POST`   | `/api/:contentType/actions/:action` | Actions on the single document |
 
 ### Add `documentId`
 
